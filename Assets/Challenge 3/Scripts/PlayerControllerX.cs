@@ -41,7 +41,7 @@ public class PlayerControllerX : MonoBehaviour
         playerRb.AddForce(Vector3.up * 5, ForceMode.Impulse);
     }
 
-    
+
     // Update is called once per frame
     void Update()
     {
@@ -70,7 +70,6 @@ public class PlayerControllerX : MonoBehaviour
             Debug.Log("Game Over!");
             Destroy(collison.gameObject);
 
-
         }
 
         // if player collides with money, fireworks
@@ -79,12 +78,10 @@ public class PlayerControllerX : MonoBehaviour
             fireworksParticle.Play();
             playerAudio.PlayOneShot(moneySound, 1.0f);
             Destroy(collison.gameObject);
-
         }
         if (collison.gameObject.CompareTag("Ground"))
         {
-            isJumping = false;
-
+            isJumping = true;
         }
 
     }

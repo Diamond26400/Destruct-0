@@ -696,13 +696,17 @@
       <Project>{C7E17DA7-DB98-921F-5DB6-DAADA4ADFABF}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj">
-      <Project>{7F05AB84-1240-EE96-95B2-F752AE82BE48}</Project>
-      <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.csproj">
       <Project>{FA71884B-163E-8BB2-841F-BFC0584A6FBD}</Project>
       <Name>Unity.InputSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.InputSystem.ForUI.csproj">
+      <Project>{80E11FFE-F69E-6129-0BA7-14E57696B1A5}</Project>
+      <Name>Unity.InputSystem.ForUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj">
+      <Project>{7F05AB84-1240-EE96-95B2-F752AE82BE48}</Project>
+      <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{842C554C-F94D-2C60-5AF1-BD31443365D5}</Project>
@@ -715,10 +719,6 @@
     <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj">
       <Project>{A3513E04-22AF-8B8F-AFCA-4DBB92F90ECA}</Project>
       <Name>Unity.VisualScripting.SettingsProvider.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.InputSystem.ForUI.csproj">
-      <Project>{80E11FFE-F69E-6129-0BA7-14E57696B1A5}</Project>
-      <Name>Unity.InputSystem.ForUI</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Performance.Profile-Analyzer.Editor.csproj">
       <Project>{0885E227-85AA-E9C2-879F-564588C04B1E}</Project>

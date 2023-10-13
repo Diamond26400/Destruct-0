@@ -649,13 +649,13 @@
       <Project>{6167963B-4C3A-D18F-334B-265E53B2F4F8}</Project>
       <Name>Unity.InputSystem.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{58DA8E81-C14B-FD65-063F-F56F8920A49C}</Project>
-      <Name>UnityEngine.UI.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.ForUI.Player.csproj">
       <Project>{1B5C8ED5-BE27-0519-BC0D-284145733264}</Project>
       <Name>Unity.InputSystem.ForUI.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.Player.csproj">
+      <Project>{58DA8E81-C14B-FD65-063F-F56F8920A49C}</Project>
+      <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Player.csproj">
       <Project>{A53507C0-6027-FF51-EEC8-4296E76E8EDE}</Project>
