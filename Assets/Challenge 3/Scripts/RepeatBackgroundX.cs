@@ -5,7 +5,7 @@ using UnityEngine;
 public class RepeatBackgroundX : MonoBehaviour
 {
     private Vector3 startPos;
-    private float repeatWidth;
+    private float repeatWidth = 50.0f;
 
     private void Start()
     {

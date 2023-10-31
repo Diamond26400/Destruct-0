@@ -83,6 +83,10 @@ public class PlayerControllerX : MonoBehaviour
         {
             isJumping = true;
         }
+        if (transform.position.y > 15)
+        {
+            transform.position = new Vector3(transform.position.x, 15, transform.position.z);
+        }
 
     }
 }

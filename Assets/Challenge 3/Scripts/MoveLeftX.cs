@@ -6,7 +6,7 @@ public class MoveLeftX : MonoBehaviour
 {
     public float speed;
     private PlayerControllerX playerControllerScript;
-    private float leftBound = -10.0f;
+    private float leftBound = 10.0f;
 
     // Start is called before the first frame update
     void Start()
@@ -17,17 +17,12 @@ public class MoveLeftX : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // If game is not over, move to the left
-        if (playerControllerScript.gameObject)
+        if (!playerControllerScript.gameOver)
         {
             transform.Translate(Vector3.left * speed * Time.deltaTime, Space.World);
-        }
 
-        // If object goes off screen that is NOT the background, destroy it
-        if (transform.position.x < leftBound && !gameObject)
-        {
-            Destroy(gameObject);
-        }
 
+        }
+   
     }
 }
